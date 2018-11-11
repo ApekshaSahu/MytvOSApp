@@ -59,6 +59,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         print(context.nextFocusedIndexPath?.item ?? 0)
+        print("over")
     }
 }
 
